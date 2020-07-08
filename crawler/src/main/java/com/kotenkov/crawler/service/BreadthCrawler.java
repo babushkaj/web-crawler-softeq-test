@@ -92,7 +92,7 @@ public class BreadthCrawler implements Crawler {
         List<Integer> wordSearchResult = new ArrayList<>();
 
         for (String wordToFind : searchWords) {
-            Elements elements = document.getElementsMatchingText(wordToFind);
+            Elements elements = document.getElementsContainingOwnText(wordToFind);
             wordSearchResult.add(elements.size());
         }
 
