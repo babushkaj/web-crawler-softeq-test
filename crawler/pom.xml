@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <jsoup.version>1.13.1</jsoup.version>
+        <jsoup.version>1.14.2</jsoup.version>
         <csv.version>1.4</csv.version>
     </properties>
 
